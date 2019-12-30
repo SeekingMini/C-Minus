@@ -1,0 +1,23 @@
+int factorial(int n){
+	int a;
+	int b;
+	a = 4;
+	b = 44;
+
+	if(n==1)
+	{
+		return 1;
+	}
+	else
+	{
+		return (n*factorial(n-1));
+	}
+		
+}
+int main(void){
+	int a;
+	a = 4;
+	a = factorial(a);
+
+	return 1; 
+}
