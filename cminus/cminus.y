@@ -263,7 +263,7 @@ arg_list : arg_list ',' expression {ArgList[NumOfParams++] = $3;}
 
 int main() 
 {	
-	fp = fopen ("out/output.asm", "w");
+	fp = fopen ("output.asm", "w");
 
 	if(!yyparse())
   {
