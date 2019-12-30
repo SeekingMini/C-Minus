@@ -16,7 +16,6 @@ int factorial(int n){
 }
 int main(void){
 	int a;
-	a = 4;
 	a = factorial(a);
 
 	return 1; 
